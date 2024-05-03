@@ -88,7 +88,7 @@ def enviar_email_com_anexo(destinatario, assunto, corpo, arquivo_anexo):
 
     msg = MIMEMultipart()
     msg['From'] = remetente
-    msg['To'] = ", ".join(destinatario)  # Join multiple recipients if there are any
+    msg['To'] = ", ".join(destinatario)
     msg['Subject'] = assunto
     msg.attach(MIMEText(corpo, 'plain'))
 
