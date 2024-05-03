@@ -43,6 +43,7 @@ O script realiza as seguintes etapas:
 
 Antes de executar o script, certifique-se de:
 
+- Escolher corretamente o script para execução, dependendo de seu sistema operacional. (Windows ou macOS)
 - Atualizar as credenciais de login da plataforma EAD nas variáveis `usuario_input` e `senha_input`.
 - Verificar e atualizar o diretório de download na variável `download_dir`.
 - Atualizar as informações de remetente, senha e destinatários nos métodos `enviar_email_com_anexo` e `enviar_email`.
